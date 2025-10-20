@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'ESCOLA DEL PÀNIC II</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Selector d'idioma -->
+  <div class="lang-switcher">
+    <select id="langSelect" aria-label="Seleccionar idioma">
+      <option value="ca" selected>CAT</option>
+      <option value="es">ES</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
+
+  <!-- Relàmpag -->
+  <div class="lightning"></div>
+
+  <!-- Pantalla principal -->
+  <header class="fade-in">
+    <h1 id="title" class="flicker">
+      L'ESCOLA DEL PÀNIC <span class="numero">II</span>
+    </h1>
+    <p id="date" class="data">🩸 8 / 11 / 2025 🩸</p>
+    <p id="hour" class="hora">🕛 23:30h</p>
+    <p id="price" class="preu">Entrada: 1 €</p>
+    <p id="intro" class="intro">
+      Després de l’èxit de l’any passat... torna l’experiència més esgarrifosa de Vilamalla!
+    </p>
+  </header>
+
+  <main>
+    <!-- Contacte -->
+    <section class="contacte fade-in">
+      <h3 id="contactTitle">Contacte</h3>
+      <p>
+        📸 Instagram:
+        <a href="https://www.instagram.com/lescoladelpanic" target="_blank" rel="noopener">
+          @lescoladelpanic
+        </a>
+      </p>
+      <p>
+        📧 <span id="mailLabel">Correu</span>:
+        <a href="mailto:lescoladelpanic@gmail.com">lescoladelpanic@gmail.com</a>
+      </p>
+    </section>
+
+    <!-- Ubicació -->
+    <section class="mapa fade-in">
+      <h3 id="mapTitle">📍 Ubicació</h3>
+      <p id="address">Vilamalla, Carrer Siurana S/N — 17469</p>
+      <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3120.4037419779047!2d2.9719212208658403!3d42.21536505572267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDEyJzU1LjMiTiAywrA1OCcyNi4xIkU!5e1!3m2!1ses!2ses!4v1760998118119!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Col·labora -->
+    <footer class="fade-in">
+      <div class="colabora">
+        <p id="colaboraText">Col·labora:</p>
+        <div class="logos">
+          <div class="colab">
+            <img src="FOTOS/ajuntament.png" alt="Ajuntament de Vilamalla" />
+            <p id="ajuntament">Ajuntament de Vilamalla</p>
+          </div>
+          <div class="colab">
+            <img src="FOTOS/associacio.png" alt="Associació de Joves" />
+            <p id="associacio">Associació de Joves</p>
+          </div>
+        </div>
+
+        <p class="creditos" id="creditsText">
+          Creat per <span class="autor">POL CASIÑOL EXPÓSITO</span> —
+          <a href="https://www.instagram.com/pol_casi" target="_blank" rel="noopener">@pol_casi</a>
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="lang.js"></script>
+</body>
+</html>
