@@ -85,3 +85,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   fadeElements.forEach((el) => appearOnScroll.observe(el));
 });
+

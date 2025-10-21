@@ -91,6 +91,19 @@
     </footer>
   </main>
 
+  <!-- EASTER EGG OVERLAY: element afegit al final del body (invisible per defecte) -->
+  <div id="egg-overlay" aria-hidden="true" role="dialog" tabindex="-1" style="display:none;">
+    <div class="egg-content" role="document">
+      <img id="egg-image" src="" alt="Foto túnel del terror" />
+      <div class="egg-caption">Benvingut/da al túnel del terror!</div>
+    </div>
+    <button class="egg-close" id="egg-close" aria-label="Tancar ou de pascua">Tancar ✕</button>
+  </div>
+
+  <!-- JS de l'ou de pascua -->
+  <script src="easteregg.js"></script>
+
+  <!-- Script d'idiomes i la resta -->
   <script src="lang.js"></script>
 </body>
 </html>
